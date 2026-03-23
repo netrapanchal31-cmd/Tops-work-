@@ -1,9 +1,0 @@
-/nThis is saturday morning /nThis is saturday morning 
-This is saturday morning. 
-This is python class 
-This is saturday morning. 
-This is python class & C:/Users/DELL/AppData/Local/Programs/Python/Python314/python.exe c:/Users/DELL/OneDrive/python/class_work/Functions_Module/filehandling_1.py
-This is saturday morning. 
-This is python class netra 
-krish
-neel
