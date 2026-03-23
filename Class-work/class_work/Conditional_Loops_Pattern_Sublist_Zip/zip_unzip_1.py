@@ -1,0 +1,9 @@
+lst_name=["netra","neel","krish"]
+lst_contact=[1234,5677,5434]
+lst_marks=[120,134,213]
+ans=zip(lst_name,lst_contact,lst_marks)
+print(list(ans))
+lst_country=[("usa","florida"),("india","ahmedabad"),("uk","eliflitower")]
+lstcity,lstplace=zip(*lst_country)
+print(lstcity)
+print(lstplace)
