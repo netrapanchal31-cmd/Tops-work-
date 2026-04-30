@@ -1,0 +1,5 @@
+CREATE DATABASE  XYZ;
+use XYZ;
+CREATE TABLE Employee (E_ID int(50), E_NAME VARCHAR(100), E_SALARY DECIMAL(50));
+INSERT INTO Employee (E_ID, E_NAME, E_SALARY) VALUE (101,'Netra',85000),(102,'krish',80000),(103,'Lata',75000),(104,'Niyati',85000),(105,'Neel',80000);
+select * from Employee;
