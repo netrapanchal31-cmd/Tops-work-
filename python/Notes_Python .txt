@@ -1,0 +1,687 @@
+🔹 1. Programming
+Definition:
+Programming is the process of writing a set of instructions that tells a computer how to perform a specific task.
+
+Key Points:
+
+Instructions are written in a programming language
+Two types: Low-level and High-level
+Python is a high-level language
+Helps in automation and problem solving
+
+🔹 2. Function
+Definition:
+A function is a block of code that performs a specific task and can be reused multiple times.
+
+Key Points:
+
+Reduces code repetition
+Two types: Built-in and User-defined
+Can take parameters (input)
+Can return a value
+
+🔹 3. Data Type
+Definition:
+A data type defines the type of value a variable can store.
+
+Key Points:
+
+int → whole numbers
+float → decimal numbers
+string → text data
+collection → list, tuple, set
+dictionary → key-value pairs
+
+🔹 4. Variable
+Definition:
+A variable is a name used to store data in memory.
+
+Key Points:
+
+Also called identifier
+Case-sensitive (age ≠ Age)
+Can store different types of data
+Value can be changed during execution
+
+🔹 5. Type Casting
+Definition:
+Type casting is the process of converting one data type into another.
+
+Key Points:
+
+Used when input type is different
+Converts string to int/float
+Helps in calculations
+Can be explicit (manual conversion)
+
+example:
+convert int into string
+
+Formatting (definition):
+Formatting in Python means arranging and displaying data (like text, numbers, etc.) in a specific and readable way.
+example: name = "Rahul"
+age = 20
+
+print(f"My name is {name} and I am {age} years old.")
+
+🔹 6. Operators
+Definition:
+Operators are symbols used to perform operations on variables and values.
+
+Key Points:
+
+Arithmetic → +, -, *, /, %, //, **
+Relational → ==, !=, >, <, >=, <=
+Logical → and, or, not
+Assignment → =, +=, -=
+Membership → in, not in
+Identity → is, is not
+Bitwise → &, |, ^, ~, <<, >>
+
+🔹 7. Conditional Statement
+Definition:
+Conditional statements are used to execute code based on a condition.
+
+Key Points:
+
+Types: if, if-else, if-elif-else
+Used for decision making
+Condition must be True or False
+Example: checking age, number type
+if +18 get licence else not
+if +18 elif below 80 get licence else not
+
+Nested if (definition):
+A nested if statement means placing one if statement inside another if statement. It is used when a condition needs to be checked only if another condition is true.
+
+Example: if x>5 and also x<20 print (between 5 to 20)
+
+🔹 8. Loop
+Definition:
+A loop is used to execute a block of code repeatedly.
+
+Key Points:
+
+For loop → fixed number of iterations,A for loop is used to repeat a block of code for a fixed number of times or over a sequence (like list, string, range).
+While loop → condition-based, A while loop is used to repeat a block of code as long as a condition is true.
+Nested loop → A nested loop means a loop inside another loop.
+The inner loop runs completely every time the outer loop runs once.
+Reduces manual repetition
+Used in patterns and calculations
+Example : For --- even number
+while ----- random number guessing game
+nested ----- pattern example
+
+🔹 9. Control Statements
+Definition:
+Control statements are used to change the normal flow of loop execution.
+
+Key Points:
+
+Break → stops loop
+Continue → skips current iteration
+Pass → placeholder, does nothing
+
+🔹 10. String
+Definition:
+A string is a sequence of characters enclosed in quotes.
+
+Key Points:
+
+Indexed from 0--Indexing means accessing a single character from a string using its position (index number).[0]
+Supports slicing--Slicing means getting a part (substring) of a string using a range of indexes.[0:3] [start:end]
+Immutable (cannot change directly)
+Can use methods like upper, lower
+
+🔹 11. List(collections data structure)
+Definition:
+A list is an ordered and mutable collection of elements.
+
+Key Points:
+[]
+Allows duplicate values
+Elements accessed using index
+Can be modified
+Supports methods like append, remove
+example:my_list = [1, 2, 3, 4]
+
+🔹 12. Tuple(collections data structure)
+Definition:
+A tuple is an ordered and immutable collection of elements.
+
+Key Points:
+()
+Cannot be changed after creation,immutable
+Faster than list
+Allows duplicates
+Written in round brackets
+example:my_tuple = (1, 2, 3, 4)
+
+🔹 13. Set(collections data structure)
+Definition:
+A set is an unordered collection of unique elements.
+
+Key Points:
+{}
+No duplicate values allowed
+Unordered (no indexing)
+Used for unique data
+Written in curly brackets
+example:my_set = {1, 2, 3, 4}
+
+🔹 14. Dictionary(collections data structure)
+Definition:
+A dictionary is a collection of key-value pairs.
+
+Key Points:
+
+Keys must be unique
+Values can be duplicate
+Fast data access
+Useful for structured data
+access through key, mutable, value can be duplicate,order
+example: my_dict = {"name": "Rahul", "age": 20}
+
+🔹 15. Module
+Definition:
+A module is a file that contains Python code such as functions and variables.
+
+Key Points:
+
+Promotes code reuse
+Can be imported
+Types: built-in and user-defined
+built-in= len(), print(), input(), type(), sorted(), int(), float(), str(), range()
+user-defined= made through DEF
+
+🔹 16. Library
+Definition:
+A library is a collection of modules used to perform specific tasks.
+
+Key Points:
+
+Provides extra functionality
+Example: math, random, datetime, creating
+External libraries need installation through PIP
+math=The math module is used to perform mathematical operations like square root, power, etc.
+example:import math
+print(math.sqrt(16))
+Random= The random module is used to generate random numbers.
+example: import random
+print(random.randint(1, 10))  # Random number between 1 and 10
+Datetime=The datetime module is used to work with date and time.
+example: import datetime
+now = datetime.datetime.now()
+print(now)
+Creating:A module is a file containing Python code (functions/variables) that can be reused in another program.
+example:
+👉 Create a file mymodule.py
+def greet(name):
+    print("Hello", name)
+👉 Use it in another file:
+import mymodule
+mymodule.greet("Rahul")
+
+PACKAGES:A package is a collection of modules (Python files) organized in a folder.
+It helps to organize and manage large programs easily.
+example:mypackage/
+│
+├── module1.py
+├── module2.py
+└── __init__.py
+module1.py
+def add(a, b):
+    return a + b
+Main file:
+from mypackage import module1
+print(module1.add(2, 3))   # Output: 5
+
+🔹 17. Lambda Function
+Definition:
+A lambda function is a small anonymous function without a name.
+
+Key Points:
+
+Used for simple operations
+Can take multiple arguments
+Contains only one expression
+Used with map and filter
+example : add = lambda a, b: a + b
+print(add(2, 3))   # Output: 5
+
+🔹 18. Map Function
+Definition:
+Map function applies a function to all elements in a collection.
+
+Key Points:
+
+Used for transformation
+Works with list, tuple
+Returns mapped result
+example : nums = [1, 2, 3]
+result = list(map(lambda x: x*2, nums))
+print(result)   # [2, 4, 6]
+
+🔹 19. Filter Function
+Definition:
+Filter function is used to select elements based on a condition.
+
+Key Points:
+
+Returns only required data
+Removes unwanted values
+Uses condition logic
+example : nums = [1, 2, 3, 4]
+result = list(filter(lambda x: x % 2 == 0, nums))
+print(result)   # [2, 4]
+
+🔹 20. File Handling
+Definition:
+File handling is used to read and write data to files.
+
+Key Points:
+
+Modes: read, write, append,open,
+Helps store permanent data
+Requires opening and closing file
+"r" → Read
+"w" → Write (overwrite)
+"a" → Append
+"x" → Create new file
+Using with Statement (Best Practice)
+(No need to close manually)
+example: with open("test.txt", "r") as file:
+    print(file.read())
+Read Methods
+example: with open("test.txt", "r") as file:
+    print(file.read())       # full file
+    print(file.readline())   # one line
+    print(file.readlines())  # all lines in list
+File Pointer Methods
+example: file = open("test.txt", "r")
+print(file.tell())   # current position
+file.seek(0)         # move to start
+file.close()
+
+Checking File Exists
+example: import os
+print(os.path.exists("test.txt"))
+
+
+🔹 21. Exception
+Definition:
+An exception is an error that occurs during program execution.
+
+Key Points:
+
+Stops normal execution
+Handled using try-except
+Common errors: ValueError, ZeroDivisionError
+try → contains risky code
+except → runs if an error occurs
+else → The else block runs only if no exception occurs in the try block, runs if no error
+finlly  → The finally block always executes, whether an exception occurs or not
+custom exceptions→ A custom exception is a user-defined error created using a class.
+
+example1 : try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
+except:
+    print("Error! Cannot divide by zero or invalid input")
+examle2 : try:
+    num = int(input("Enter a number: "))
+except:
+    print("Invalid input")
+else:
+    print("You entered:", num)
+example3 : try:
+    x = 10 / 2
+except:
+    print("Error occurred")
+finally:
+    print("This will always run")
+example4 : class MyError(Exception):
+    pass
+
+try:
+    raise MyError("This is a custom error")
+except MyError as e:
+    print(e)
+
+🔹 22. Class
+Definition:
+A class is a blueprint used to create objects.
+
+Key Points:
+
+Contains variables and functions
+Not a real entity
+Used in OOP
+example : class Student:
+    pass
+
+🔹 23. Object
+Definition:
+An object is an instance of a class.
+
+Key Points:
+
+Real-world entity
+Uses class properties
+Multiple objects can be created
+example : s1 = Student()
+
+🔹 24. Inheritance
+Definition:
+Inheritance is a feature where one class acquires properties of another class, One class can inherit properties from another class.
+
+Key Points:
+
+Promotes code reuse
+Parent-child relationship
+Types: single, multiple, multilevel 
+example : class A:
+    def show(self):
+        print("Class A")
+
+class B(A):
+    pass 
+
+🔹 25. Polymorphism
+Definition:
+Polymorphism means one entity can take multiple forms, Same function name behaves differently.
+
+Key Points:
+
+Same function, different behavior
+Types: compile-time and runtime
+Achieved using overloading/overriding
+example : def add(a, b):
+    return a + b
+
+print(add(2, 3))       # int
+print(add("Hi ", "All"))  # string
+
+🔹 26. Abstraction
+Definition:
+Abstraction is the process of hiding implementation details and showing only essential features, Hiding complex details and showing only necessary features.
+
+Key Points:
+
+Improves security
+Uses abstract class
+Cannot create object of abstract class
+example : from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass 
+
+🔹 27. __init__ (Constructor)
+Definition:
+__init__ is a special method that is automatically called when an object is created. It is used to initialize variables.
+
+Example:
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Rahul")
+print(s1.name)
+
+🔹 28. Methods(oops)
+Definition:
+Methods are functions defined inside a class.
+
+Example:
+class Student:
+    def greet(self):
+        print("Hello")
+
+s1 = Student()
+s1.greet()
+
+🔹 29. Multiple Inheritance
+Definition:
+When a class inherits from more than one parent class.
+
+Example:
+class A:
+    def showA(self):
+        print("Class A")
+
+class B:
+    def showB(self):
+        print("Class B")
+
+class C(A, B):
+    pass
+
+obj = C()
+obj.showA()
+obj.showB()
+
+🔹 30. Method Overloading
+Definition:
+Method overloading means same method name with different parameters.
+(Python handles it using default arguments)
+
+Example:
+class Demo:
+    def add(self, a, b=0, c=0):
+        print(a + b + c)
+
+d = Demo()
+d.add(2, 3)      # 2 parameters
+d.add(2, 3, 4)   # 3 parameters
+
+🔹 31. Method Overriding
+Definition:
+Method overriding means a child class provides its own version of a method from the parent class.
+
+Example:
+class A:
+    def show(self):
+        print("Parent class")
+
+class B(A):
+    def show(self):
+        print("Child class")
+
+obj = B()
+obj.show()
+
+🔹 32. List Comprehension
+Definition:
+A short way to create lists using a single line of code.
+
+Example:
+nums = [x for x in range(5)]
+print(nums)   # Output: [0, 1, 2, 3, 4]
+
+🔹 33. Decorator
+Definition:
+A decorator is used to modify or extend the behavior of a function.
+
+Example:
+def my_decorator(func):
+    def wrapper():
+        print("Before function")
+        func()
+        print("After function")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello")
+
+say_hello()
+
+🔹 34. Reduce Function
+Definition:
+reduce() applies a function cumulatively to the items.
+
+Example:
+from functools import reduce
+
+nums = [1, 2, 3, 4]
+result = reduce(lambda a, b: a + b, nums)
+print(result)   # 10
+
+🔹 35. Regular Expression
+Definition:
+A regular expression is a pattern used to match and validate strings.
+
+Key Points:
+
+Used in validation
+Example: email, phone number
+Uses special symbols
+
+🔹 36. Generator
+Definition:
+A generator is a function that generates values one at a time using yield.
+
+Key Points:
+
+Memory efficient
+Produces values on demand
+Used for large data
+example : def count():
+    for i in range(3):
+        yield i
+
+for num in count():
+    print(num)
+
+🔹 37.return/ yield
+Definition :
+ return is used to send a value back from a function and end the function execution.
+return = give result and stop function
+
+example:
+def add(a, b):
+    return a + b
+
+result = add(2, 3)
+print(result)
+ Output:
+5
+
+ yield
+Definition: yield is used to return values one by one without ending the function, creating a generator.
+yield = give values step-by-step (lazy execution)
+
+example:
+def count_up_to(n):
+    for i in range(1, n+1):
+        yield i
+
+for num in count_up_to(5):
+    print(num)
+ Output:
+1
+2
+3
+4
+5
+ Key Differences
+Feature	       return             	         yield
+Execution      Stops function	                 Pauses and continues
+Output	       Single value	                 Multiple values (one by one)
+Memory	       Stores full result	         Memory efficient
+Use	       Normal functions	                 Generators
+Easy Way to Remember
+return → finish and give result
+yield → pause and continue lat
+
+🔹 38. Decorator 
+Definition: 
+A decorator in Python is a function that adds extra functionality to another function without changing its original code.
+Decorator = wrapper function that modifies another function
+
+  example:
+def my_decorator(func):
+    def wrapper():
+        print("Before function runs")
+        func()
+        print("After function runs")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+ Output:
+Before function runs
+Hello!
+After function runs
+Explanation (Simple)
+my_decorator → decorator function
+say_hello → original function
+@my_decorator → applies decorator
+wrapper → adds extra behavior before & after
+
+ Key Point
+
+Add extra features (logging, checking, timing, etc.)
+Without editing the original function
+
+🔹 39. Closures 
+Definition:
+ A closure is a function that remembers the values of variables from its outer function even after the outer function has finished executing.
+Closure = inner function + remembers outer function data
+example:
+def outer_function(x):
+    def inner_function(y):
+        return x + y   # uses outer variable x
+    return inner_function
+
+add_five = outer_function(5)
+
+print(add_five(3))
+ Output:
+8
+ Explanation (Simple)
+outer_function(5) runs and returns inner_function
+Even after outer function ends, inner_function remembers x = 5
+When we call add_five(3) → it does 5 + 3 = 8
+
+ Key Points
+
+Closure stores data from outer function
+Useful for:
+Data hiding
+Creating customized functions
+No need for global variables
+
+🔹 40.GET 
+Definition: 
+GET is a type of HTTP request used to retrieve data from a server.
+GET = ask server to send data
+example:
+import requests
+response = requests.get("https://api.github.com")
+print(response.status_code)
+print(response.text)
+
+👉 It requests data from the server and returns it.
+
+🔹 41. JSON
+Definition: JSON (JavaScript Object Notation) is a format used to store and exchange data, and in Python it is handled using the json module.
+JSON = data format (looks like dictionary)
+
+example:
+import json
+data = {"name": "Aahana", "age": 20}
+# Convert Python → JSON
+json_data = json.dumps(data)
+
+# Convert JSON → Python
+python_data = json.loads(json_data)
+
+print(json_data)
+print(python_data)
+

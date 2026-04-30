@@ -1,0 +1,359 @@
+1. What is Python?
+Python is a simple and easy programming language
+It is free and open source
+It is a high-level language
+Developed by Guido van Rossum
+It is portable (can run on different systems)
+
+
+2. Python as a Programming Language
+Python is a translator-based language
+It converts programs into machine code
+Uses:
+Compiler
+Interpreter
+
+
+3. Python Character Set
+Letters → A to Z, a to z
+Digits → 0 to 9
+Special Symbols → +, -, *, /, etc.
+Whitespaces → space, tab, newline, etc.
+Other Characters → Supports ASCII & Unicode
+
+
+4. Variables
+A variable is a name given to a memory location
+Used to store data in a program
+
+
+5. Data Types
+Integer (int) → Whole numbers
+Float (float) → Decimal numbers
+String (str) → Text or characters
+Boolean (bool) → True or False
+None → Represents no value
+
+
+6. Keywords
+Keywords are reserved words in Python
+They have special meaning and cannot be used as variable names
+Example: True, False, None, if, else
+Note: False must start with a capital “F”
+
+
+7. Comments in Python
+Comments are used to explain code
+They are ignored by the interpreter
+Types:
+Single-line comment
+Multi-line comment
+
+
+8. Operators in Python
+Arithmetic Operators:
+Used for mathematical calculations
+Examples: addition, subtraction, multiplication, division, modulus, exponentiation
+Relational / Comparison Operators:
+Used to compare values
+Result is always True or False
+Assignment Operators:
+Used to assign values to variables
+Logical Operators:
+Used to combine conditions
+Examples: and, or, not
+
+Operator = Symbol that performs operations between values
+
+
+
+9. Type Conversion
+Automatic conversion of one data type to another
+Done by Python when possible
+
+
+10. Type Casting
+Manual conversion of data type
+Done by the programmer when required
+
+
+11. Input in Python
+Used to take input from the user
+By default, input is stored as string
+Can be converted into other types like integer or float
+
+
+12. Practice Concepts
+Finding sum of two numbers
+Calculating area of a square
+Finding average of numbers
+Comparing two values
+
+13. Strings
+A string is a data type that stores a sequence of characters
+Example concept: combining two strings results in a single string (concatenation)
+
+
+14. String Operations
+Concatenation
+Joining two or more strings together
+Length of String
+Length means the total number of characters in a string
+
+
+15. Indexing
+Indexing is used to access individual characters in a string
+Index always starts from 0
+Each character has a unique position (index)
+Strings are immutable (cannot be changed after creation)
+
+
+16. Slicing
+Slicing is used to access a part of a string
+Key Points:
+Starting index is included
+Ending index is not included
+If starting index is missing → starts from beginning
+If ending index is missing → goes till end
+
+
+17. Negative Indexing
+Used to access characters from the end of the string
+Starts from -1 (last character) and moves backward
+
+
+18. String Functions
+Common built-in functions used with strings:
+endswith() → Checks if string ends with a specific value
+count() → Counts how many times a substring appears
+capitalize() → Makes first character uppercase
+find() → Finds position of first occurrence of a word
+replace() → Replaces a part of the string with another
+
+
+
+19. Conditional Statements
+Used to make decisions in a program
+Types:
+if → checks a condition
+elif → checks another condition if previous is false
+else → runs when all conditions are false
+
+
+20. Grading System Logic
+Marks ≥ 90 → Grade A
+80 to 89 → Grade B
+70 to 79 → Grade C
+Below 70 → Grade D
+
+
+21. Lists in Python
+A list is a built-in data type used to store multiple values.
+It can store different types of data (like numbers, strings, etc.) together.
+Lists are mutable, meaning values can be changed after creation.
+Elements are accessed using indexing.
+Length of a list can be found.
+
+
+22. List Slicing
+Used to get a part of the list.
+You specify starting and ending positions.
+The ending position is not included.
+You can skip start or end to take default values.
+Negative indexing works (counts from end).
+
+
+23. List Methods (Basic)
+Add element at the end.
+Insert element at a specific position.
+Sort elements in ascending order.
+Reverse the list.
+Sort in descending order.
+
+
+24. List Methods (Removal)
+Remove a specific element (first occurrence).
+Remove element using index position.
+
+
+25. Tuples in Python
+A tuple is a built-in data type used to store multiple values.
+Tuples are immutable, meaning values cannot be changed.
+Faster than lists and used when data should not change.
+Can contain different data types.
+
+
+26. Tuple Methods
+Find index of an element.
+Count how many times an element appears.
+
+
+
+27.Dictionary in Python
+Dictionary stores data in key : value pairs.
+Each key is unique and maps to a value.
+Dictionaries are unordered and mutable.
+Duplicate keys are not allowed.
+Values can be accessed using their keys.
+New values can be added or updated easily. 
+
+
+28. Nested Dictionary
+A dictionary can contain another dictionary inside it.
+Useful for storing complex or structured data.
+Access is done step-by-step using multiple keys. 
+
+
+29. Dictionary Methods
+Get all keys from the dictionary.
+Get all values from the dictionary.
+Get all key-value pairs together.
+Update or add multiple values at once.
+Safely access a value without error if key is missing. 
+
+
+30. Set in Python
+A set is a collection of unique elements.
+It is unordered, so elements have no fixed position.
+Duplicate values are automatically removed.
+Elements must be immutable (cannot be changed).
+Empty set has a special way to be created.
+
+
+31. Set Methods (Basic)
+Add new elements to the set.
+Remove specific elements.
+Remove a random element.
+Clear all elements from the set.
+
+
+32. Set Operations
+Union: combines all elements from two sets.
+Intersection: gives only common elements.
+These operations return new sets.
+
+
+33. Loops in Python
+Loops are used to repeat instructions again and again. They are helpful when we need to perform the same task multiple times without writing it repeatedly. 
+
+
+34. While Loop
+A while loop runs as long as a given condition is true. It keeps executing until the condition becomes false.
+
+
+35. Infinite Loop
+An infinite loop is a loop that never stops running. This happens when the condition always remains true and is not updated properly.
+
+
+36. Break Statement
+The break statement is used to immediately stop the loop. When break is executed, the loop ends at that point.
+
+
+37. Continue Statement
+The continue statement is used to skip the current iteration of the loop. It moves the control to the next iteration without completing the current one.
+
+
+38. For Loop 
+A for loop is used to go through elements one by one. It is commonly used with lists, strings, and tuples for sequential traversal.
+
+
+39. For Loop with Else
+In a for loop, the else block runs when the loop finishes normally. If the loop is stopped using break, the else block will not execute.
+
+
+40. Range Function
+The range function is used to generate a sequence of numbers. By default, it starts from 0, increases by 1, and stops before the specified number.
+
+
+41. Pass Statement
+The pass statement is a null statement that does nothing. It is used as a placeholder where a statement is required but no action is needed.
+
+
+42. Uses of Loops
+Loops are used for repeating tasks, traversing data, and performing operations multiple times efficiently.
+
+
+43. Functions in Python
+Functions are blocks of statements that perform a specific task. They help in organizing code and make it reusable. Instead of writing the same code again and again, we can use functions to make programs shorter and easier to understand.
+
+
+44. Types of Functions
+There are two main types of functions in Python: built-in functions and user-defined functions. Built-in functions are already available in Python, while user-defined functions are created by the programmer based on their needs.
+
+
+45. Default Parameters
+Default parameters are used to assign a value to a function parameter in advance. If no value is given during the function call, the default value is used automatically.
+
+
+46. Recursion
+Recursion is a process where a function calls itself again and again. It is useful for solving problems that can be broken into smaller similar parts.
+
+
+47. Base Case in Recursion
+A base case is the condition where the recursion stops. Without a base case, the function would keep calling itself forever, leading to an infinite loop.
+
+
+48. File I/O in Python
+File I/O means working with files in Python. It is used to read data from a file and write data into a file. This helps in storing data permanently instead of keeping it only in the program.
+
+
+49. Types of Files
+There are mainly two types of files in Python: text files and binary files. Text files store data in readable form like words and numbers, while binary files store data in non-readable form such as images, videos, and other media.
+
+
+50. Opening and Closing Files
+Before performing any operation on a file, it must be opened. After completing the work, the file should be closed to free system resources and save changes properly.
+
+
+51. File Modes
+File modes define how a file is used. Read mode is used to read data from a file, write mode is used to overwrite data in a file, and append mode is used to add new data without deleting existing content.
+
+
+52. Reading a File
+Reading a file means accessing the data stored in it. Data can be read completely at once or line by line depending on the requirement.
+
+
+53. Writing to a File
+Writing to a file means adding or updating data in a file. In write mode, the old data is removed, while in append mode, new data is added without removing existing content.
+
+
+54. With Statement
+The with statement is used to handle files more safely and easily. It automatically closes the file after the work is done, so there is no need to close it manually.
+
+
+55. Deleting a File
+Files can be deleted using special modules in Python. A module is like a library that contains useful functions created by other programmers.
+
+
+56. Object Oriented Programming (OOP)
+Object Oriented Programming is a way of writing code by using objects to represent real-world things. It helps in organizing programs in a better and more realistic way by connecting code with real-life scenarios.
+
+
+57. Class and Object
+A class is like a blueprint used to create objects. An object is an instance of a class and represents a real-world entity. Classes define the structure, and objects use that structure to store data and perform actions.
+
+
+58. Class and Instance Attributes
+Attributes are variables that belong to a class or an object. Class attributes are shared by all objects, while instance attributes are specific to each individual object.
+
+
+59. Constructor Function
+The constructor is a special function that is automatically called when an object is created. It is used to initialize the object and assign values to its attributes.
+
+
+60. Methods
+Methods are functions that belong to a class. They are used to define the behavior of objects and can access and modify the data inside the object.
+
+
+61. Static Methods
+Static methods are methods that belong to a class but do not depend on object data. They are used for general tasks related to the class and do not require access to instance variables.
+
+
+62. Abstraction
+Abstraction means hiding unnecessary details and showing only the important features of an object. It helps in reducing complexity and focusing only on what is needed.
+
+
+63. Encapsulation
+Encapsulation means wrapping data and functions together into a single unit called an object. It helps in protecting the data and controlling access to it.
+
+
